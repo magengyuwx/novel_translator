@@ -1,0 +1,6 @@
+[server]
+# Workaround for Streamlit module watcher triggering optional imports
+# (e.g. transformers -> torchvision) in environments without torchvision.
+fileWatcherType = "none"
+runOnSave = false
+

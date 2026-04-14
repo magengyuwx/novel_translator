@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+.idea/
+.vscode/
+data/output/
+data/rag_db/
+streamlit_stderr.log
+streamlit_stdout.log
+streamlit_verify_stderr.log
+streamlit_verify_stdout.log
